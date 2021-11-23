@@ -1,7 +1,7 @@
 import cv2
 import os
 import copy
-
+## 图片的水平镜像翻转
 def DataAugment(dir_path):
     if not os.path.exists(dir_path):
         print('路径不存在')
